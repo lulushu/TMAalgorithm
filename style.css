@@ -1,0 +1,115 @@
+td, th, tr {
+    border: 3px solid black;
+}
+
+.project {
+    margin: auto;
+    width: 350px;
+    text-decoration: underline;
+}
+
+/*보여줄때는 inline-block으로*/
+.couple-num {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+/*보여줄때는 inline-block으로*/
+.scenario {
+    margin-left: 10%;
+    display: none;
+}
+
+/*보여줄때는 inline-block으로*/
+.name-input {
+    margin-left: 10%;
+    display: none;
+}
+
+/*보여줄때는 inline-block으로*/
+.show-prefer {
+    margin-left: 10%;
+    display: none;
+}
+
+.button-wrapper {
+    margin-left: 10%;
+}
+
+.information-box {
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.word {
+    display: inline;
+}
+
+.table-name {
+    font-size: 1.5em;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    margin-bottom: 50px;
+
+}
+
+th {
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+td {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 1em;
+}
+
+tr:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.female-prefer tr {
+    background: #ffccd9;
+}
+
+.male-prefer tr {
+    background: #ccd9ff;
+}
+
+.male-prefer {
+    display: inline-block;
+    margin-left: 10%;
+    width: 35%;
+}
+
+.female-prefer {
+    display: inline-block;
+    position: absolute;
+    margin-right: 10%;
+    width: 35%;
+    margin-left: 10%;
+}
+
+.dash tr {
+    background: #99ffcc
+}
+
+.deleted {
+    text-decoration: line-through red;
+}
+
+p {
+    display: inline
+}
+
+form {
+    margin-bottom: 5%;
+    display: inline-block
+}
+
+.input {
+    margin-left: 10px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>TMA algorithm</title>
+</head>
+<body>
+<h1 class="project">TMA algorithm 시나리오</h1>
+
+<div class="couple-num">
+    <label for="couple"> 매칭하려는 커플수 </label>
+    <select id="couple">
+        <option disabled selected>선택</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+    </select>
+</div>
+<div class="scenario">
+    <form>
+        <h3>시나리오 선택</h3>
+        <label for="boyToGirl">남자가 여자에게 대시</label>
+        <input type="radio" name="scenario" id="boyToGirl" value="boyToGirl" checked><br>
+        <label for="girlToBoy">여자가 남자에게 대시</label>
+        <input type="radio" name="scenario" id="girlToBoy" value="girlToBoy">
+        <input type="submit" class="input" value="선택완료">
+    </form>
+</div>
+<form class="name-input">
+    <h3>이름 입력</h3>
+    <label for="boy">Boy</label>
+    <input type="radio" name="gender" id="boy" value="boy" checked><br>
+    <label for="girl">Girl</label>
+    <input type="radio" name="gender" id="girl" value="girl">
+    <input type="text" class="input" name="name" placeholder="Name">
+    <input type="submit" class="input" value="입력">
+</form>
+<div class="show-prefer">
+    <button>서로의 마음 알아보기</button>
+</div>
+<br>
+<table class="male-prefer">
+    <caption class="table-name">Boy</caption>
+    <tr><td>장원석</td><td><div class="word deleted"><p>1111</p><p>(5)</p>></div> <div class="word"><p>1111</p><p>(4)</p> ></div> <div class="word"><p>1111</p><p>(3)</p> ></div> <div class="word"><p>111234234234234321</p><p>(5)</p> ></div> 5555</td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+</table>
+
+<table class="female-prefer">
+    <caption class="table-name">Girl</caption>
+    <tr><td>장원석</td><td><div class="word deleted"><p>1111</p><p>(5)</p> ></div> <div class="word"><p>1111</p><p>(4)</p> ></div> <div class="word"><p>1111</p><p>(3)</p> ></div> <div class="word"><p>111234234234234321</p><p>(5)</p> ></div> 5555</td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+</table>
+
+<br>
+<!--   <div style="margin-left:35%;width:100px;">
+
+  </div> -->
+<div class="information-box">
+    매칭하려는 커플수 : 7 <br>
+    남자가 여자에게 대시 <br>
+</div>
+<div class="button-wrapper">
+    <button>이전</button>
+    <button>다음</button>
+</div>
+<!-- <table class="dash" style=" display:inline-block;width:55%;margin-left:10%;">
+  <caption style="font-size:1.5em">dash</caption> -->
+<table class="dash" align="center">
+    <caption class="table-name">dash</caption>
+    <tr><td>장원석</td><td><p class="deleted">111<p> , 22222 , 3333 , 4444 , 5555</td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+    <tr><td>장우</td><td></td></tr>
+</table>
+<!--   <table class="dash" style=" display:inline-block;
+    position:absolute;
+    width:5%;
+    margin-right:20%;
+    margin-left:10%;">
+    <caption style="font-size:1.5em">선호도 점수</caption>
+    <tr><td>Boys</td><td>10</td></tr>
+    <tr><td>Girls</td><td>20</td></tr>
+
+  </table>
+
+  <div style="display:inline-block; position:absolute;margin-top: 15% ">
+    결론: 기다리지 말고 대시하자
+  </div> -->
+</body>
+</html>
